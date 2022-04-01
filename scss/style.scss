@@ -1,3 +1,5 @@
+@import "variables";
+
 * {
   margin: 0;
   padding: 0;
@@ -40,8 +42,8 @@ h1,
 .video__youtube {
   width: 100%;
   margin: 3rem;
-  max-width: 1200px;
-  height: 800px;
+  max-width: $ancho * 2.4;
+  height: $ancho;
 }
 .parrafoprimero {
   color: rgb(17, 13, 16);
@@ -92,23 +94,23 @@ fieldset {
 .contenido1 {
   border: 3px solid rgb(226, 26, 183);
   background-color: white;
-  min-height: 100px;
+  min-height: $alto/4;
   grid-area: header;
 }
 .contenido2 {
-  min-height: 100px;
+  min-height: $alto/5;
 }
 .contenido3 {
-  min-height: 100px;
+  min-height: $alto/5;
 }
 .contenido4 {
-  min-height: 100px;
+  min-height: $alto/5;
   grid-area: sidebar;
 }
 .contenido5 {
-  min-height: 100px;
+  min-height: $alto/5;
 }
 .contenido6 {
-  min-height: 100px;
+  min-height: $alto/5;
   grid-area: content;
 }

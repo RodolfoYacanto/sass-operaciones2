@@ -55,7 +55,7 @@ h1,
   width: 100%;
   margin: 3rem;
   max-width: 1200px;
-  height: 800px;
+  height: 500px;
 }
 
 .parrafoprimero {
@@ -125,7 +125,7 @@ fieldset {
 .contenido1 {
   border: 3px solid #e21ab7;
   background-color: white;
-  min-height: 100px;
+  min-height: 125px;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
