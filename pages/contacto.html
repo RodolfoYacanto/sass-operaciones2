@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css">
+    <!--font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+     <!--fav icon -->
+     <link
+     rel="shortcut icon"
+     href="../imgs/water-bottle.png"
+     type="image/x-icon"
+   />
+   <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Reciclaje de plástico</title>
+  </head>
+  <body>
+    <!--barra de navegacion-->
+    <header>
+      <nav class="nav">
+        <ul class="nav__list">
+          <!--logo avioncito de papel -->
+          <li>
+            <a href="../index.html"><i class="far fa-paper-plane"></i></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="tiposdeplasticos.html"
+              >Tipos de plasticos</a
+            >
+          </li>
+          <li class="nav__item"><a class="nav__link" href="Nosotros.html">Nosotros</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="FAQ.html">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </header >
+    <!--contenido de la pagina -->
+      <h1>contacto</h1>
+    <div class="flex-contenedor">
+    <form action="">
+      <fieldset>
+        <legend>Mi formulario</legend>
+        <label for="nombre">nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder='Escriba su nombre' required='' />
+        <br />
+        <label for="apellido">apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder='Escriba su apellido'required />
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder='Escriba su Email adress'required />
+        <br>
+        INDIVIDUAL
+        <input type="radio" name="CONSUMIDOR" value="INDIVIDUAL" />
+       COMPANIA
+        <input type="radio" name="CONSUMIDOR" value="COMPANIA" />
+        <div>acepto recibir notificaciones al respecto</div>
+        <input type="checkbox" name="acepta" value="1   " />
+        <br/>
+        <label for="consumidor de palsticos">consumidor de plasticos</label>
+        <select name="talles" id="talles">
+            
+            
+            <option value="P">PEQUENO(menos de 100kg semanales)</option>
+            <option value="M">MEDIANO(entre 100 y 500 kg semanales)</option>
+            <option value="G">GRANDE(mas de 500 kg semanales)</option>></option>
+        </select>
+          
+         <br /> 
+              <label for="mensaje">mensaje</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit"value='enviar formulario'   >
+        <input type="reset"value='Borrar formulario'   >
+      </fieldset>
+    </form>
+    </div>
+    
+  </body>
+</html>
